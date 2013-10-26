@@ -6,15 +6,9 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
-	<feature name="App">
-        <param name="android-package" value="com.phonegap.api" />
+	<feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-	<feature name="Camera">
-    	<param name="android-package" value="org.apache.cordova.CameraLauncher" />
-	</feature>
-	<plugins>
- 		<plugin name="App" value="com.phonegap.api"/>
-	</plugins>
 
     <name>PG</name>
 
