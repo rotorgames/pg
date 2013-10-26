@@ -7,13 +7,13 @@
 
     <!-- versionCode is optional and Android only -->
 	<feature name="App">
-        <param name="android-package" value="org.apache.cordova.App" />
+        <param name="android-package" value="com.phonegap.api" />
     </feature>
 	<feature name="Camera">
     	<param name="android-package" value="org.apache.cordova.CameraLauncher" />
 	</feature>
 	<plugins>
- 		<plugin name="App" value="org.apache.cordova.App"/>
+ 		<plugin name="App" value="com.phonegap.api"/>
 	</plugins>
 
     <name>PG</name>
