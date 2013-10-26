@@ -22,5 +22,5 @@
 	<content src="http://213.219.244.158/pg/index.html" />
 	
 	<gap:platform name="android" />
-	<preference name="phonegap-version" value="3.0.0" />
+	<preference name="phonegap-version" value="3.1.0" />
 </widget>
