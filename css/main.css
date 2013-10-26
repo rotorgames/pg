@@ -10,11 +10,10 @@ body{
 
 #header{
 	background:url(../img/header.png);
-	font-size:300%;
+	font-size:100%;
 	color:white;
 	text-align:center;
-	box-shadow: 0 0px 30px 5px rgba(0,0,0,0.7);
-	border:solid 2px #333;
+	box-shadow: 0 -25px 30px 20px rgba(0,0,0,0.7);
 	}
 	
 #wrapper{
