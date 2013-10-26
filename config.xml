@@ -25,6 +25,3 @@
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.0.0" />
 </widget>
-<feature name="Device">
-        <param name="android-package" value="org.apache.cordova.device.Device" />
-</feature>
