@@ -6,6 +6,9 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
+	<plugins>
+    	<plugin name="App" value="org.apache.cordova.App"/>
+	</plugins>
 
     <name>PG</name>
 
