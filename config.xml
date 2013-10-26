@@ -6,7 +6,7 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
-	<gap:plugin name="org.apache.cordova.Device" />
+	<gap:plugin name="org.apache.cordova.device.Device" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	
 	
