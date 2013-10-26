@@ -17,6 +17,8 @@
         rotorgames
     </author>
 	
+	<content src="index.html" />
+	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.0.0" />
 </widget>
