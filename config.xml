@@ -8,7 +8,9 @@
     <!-- versionCode is optional and Android only -->
 	<gap:plugin name="org.apache.cordova.Device" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
-
+	
+	<access origin="*" />
+	
     <name>PG</name>
 
     <description>
