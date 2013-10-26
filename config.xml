@@ -22,7 +22,7 @@
 	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.1.0" />
-	<content src="index.html" />
+	<content src="file:///android_asset/www/index.html" />
     <access origin="*" />
     <preference name="Fullscreen" value="true" />
     <preference name="WebViewBounce" value="true" />
