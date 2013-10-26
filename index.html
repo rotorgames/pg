@@ -5,10 +5,13 @@
 <title></title>
 <script>
 //location.href = "http://213.219.244.158/pg/";
-console.log(device.name);
+function closeMeNow() {
+    navigator.app.exitApp();
+}
 </script>
 </head>
 
 <body>
+<a href="#" onClick="closeMeNow();" data-role="button">Close App</a>
 </body>
 </html>
