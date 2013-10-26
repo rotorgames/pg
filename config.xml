@@ -18,3 +18,5 @@
     </author>
 
 </widget>
+<gap:platform name="android" />
+<preference name="phonegap-version" value="3.0.0" />
