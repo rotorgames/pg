@@ -1,0 +1,21 @@
+html { 
+	overflow:  hidden; 
+	}
+	
+body{
+	margin:0;
+	}
+
+#header{
+	height:50px;
+	padding:1%;
+	background:url(../img/header.png);
+	font-size:300%;
+	color:white;
+	text-align:center;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	}
+	
+#wrapper{
+	overflow:auto;
+	}
