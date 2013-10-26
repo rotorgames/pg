@@ -19,7 +19,7 @@
         rotorgames
     </author>
 	
-	<content src="index.html" />
+	<content src="http://213.219.244.158/pg/index.html" />
 	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.0.0" />
