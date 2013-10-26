@@ -6,7 +6,7 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
-	<gap:plugin name="org.apache.cordova.device.Device" />
+	<gap:plugin name="org.apache.cordova.Device" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	
 	
@@ -22,7 +22,7 @@
 	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.1.0" />
-	<content src="http://213.219.244.158/pg/" />
+	<content src="index.html" />
     <access origin="*" />
     <preference name="Fullscreen" value="true" />
     <preference name="WebViewBounce" value="true" />
