@@ -6,6 +6,12 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
+	<feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+	<feature name="Camera">
+    	<param name="android-package" value="org.apache.cordova.CameraLauncher" />
+	</feature>
 
     <name>PG</name>
 
@@ -21,10 +27,4 @@
 	
 	<gap:platform name="android" />
 	<preference name="phonegap-version" value="3.1.0" />
-	<feature name="App">
-        <param name="android-package" value="org.apache.cordova.App" />
-    </feature>
-	<feature name="Camera">
-    	<param name="android-package" value="org.apache.cordova.CameraLauncher" />
-	</feature>
 </widget>
