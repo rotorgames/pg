@@ -6,7 +6,7 @@
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
-	<gap:plugin name="com.appback.plugins.appback" />
+	<gap:plugin name="org.apache.cordova.App" />
 
     <name>PG</name>
 
