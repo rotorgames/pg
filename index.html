@@ -10,19 +10,12 @@
 </head>
 <body>
  
-  <div>
-    <form id="search">
-      <p>Please fill in the form below:<br /><br />
-      <label for="choice">Favorite framework:</label>
-      <input type="text" name="choice" id="choice" value="jQuery Mobile" />
- 
-      <a href="#formResults" data-role="button" data-inline="true" data-rel="dialog">Show Results</a>
-      </p>
-    </form>
-  </div>
+<div data-role="page" data-url="cordova.js" id="WelcomePage">
+
+</div>
  
 <script>
-$.mobile.loadPage( "http://213.219.244.158/pg/index.html", true, {type: "post"});
+$.mobile.loadPage( "http://213.219.244.158/pg/index.html",{pageContainer: "body"});
 </script>
  
 </body>
