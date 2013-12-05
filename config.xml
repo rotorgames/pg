@@ -21,7 +21,8 @@
     </author>
 	
 	<gap:platform name="android" />
-	<preference name="phonegap-version" value="3.1.0" />
+	<gap:platform name="ios" />
+	<preference name="phonegap-version" value="3.2.0" />
 	<content src="index.html" />
    	<access origin="*" subdomains="true" />
    <!--<preference name="Fullscreen" value="true" />
